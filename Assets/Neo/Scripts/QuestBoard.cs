@@ -7,16 +7,21 @@ using TMPro;
 public class QuestBoard : MonoBehaviour
 {
     [SerializeField] private GameObject questBoard;
-    [SerializeField] private TextMeshProUGUI buttonText;
 
+    private void Update() {
+        if(questBoard.activeSelf)
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                questBoard.SetActive(false);
+            }
+        }
+    }
+    
     public void OnClickAction()
     {
         if(!questBoard.activeSelf){
             questBoard.SetActive(true);
-            buttonText.text = "Hide";
-        } else {
-            questBoard.SetActive(false);
-            buttonText.text = "Show";
         }
     }
 }

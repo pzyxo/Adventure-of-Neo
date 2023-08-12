@@ -9,17 +9,19 @@ public class Player : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb;
     private Vector2 moveDelta;
-    public float moveSpeed = 5f;
-    public VariableJoystick joystick;
+    public float moveSpeed;
+    public float startMoveSpeed = 3f;
+    // public VariableJoystick joystick;
     private RaycastHit2D hit;
     private Player player;
     private Animator anim;
 
-    // variabel untuk sprint
+    // variabel untuk dash
     private bool isAbleSprint = false;
     public float decreaseRate = 1f;
     public float variableValue = 5f;
-    public float maxMoveSpeed = 10f;
+    public float maxMoveSpeed = 6f;
+    public float dashDistance = 5f;
     public TextMeshProUGUI sprintText;
     public Button button;
     public Sprite pressedSprite;
@@ -41,13 +43,13 @@ public class Player : MonoBehaviour
     {
 
         // for input movement with keyboard / arrows
-        // float x = Input.GetAxisRaw("Horizontal");
-        // float y = Input.GetAxisRaw("Vertical");
+        float x = SimpleInput.GetAxisRaw("Horizontal");
+        float y = SimpleInput.GetAxisRaw("Vertical");
 
 
         // for input movement with joystick
-        float x = joystick.Horizontal;
-        float y = joystick.Vertical;
+        // float x = joystick.Horizontal;
+        // float y = joystick.Vertical;
 
 
         //reset moveDelta
@@ -90,7 +92,7 @@ public class Player : MonoBehaviour
 
         if(moveSpeed == maxMoveSpeed && isAbleSprint == true)
         {
-            moveSpeed = 5f;
+            moveSpeed = startMoveSpeed;
         }
 
         if(isAbleSprint){
@@ -107,6 +109,8 @@ public class Player : MonoBehaviour
             moveSpeed = maxMoveSpeed;
             variableValue = 10f;
         }
+
+        
     }
 
     

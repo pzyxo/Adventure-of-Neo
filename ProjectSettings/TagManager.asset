@@ -10,6 +10,37 @@ TagManager:
   - Coins 2/4
   - Coins 2/3
   - Enemy
+  - Final Coin
+  - Level 1 Trigger
+  - Final Answer
+  - Wrong Answer
+  - NPC Dialog trigger
+  - Chest
+  - Removable
+  - Edge
+  - Switch
+  - 1st Mechanism
+  - 2nd Mechanism
+  - 3rd Mechanism
+  - Switch 1
+  - Switch 2
+  - Switch 3
+  - Missing Coin 1
+  - 3rd Mechanism 1
+  - 3rd Mechanism 2
+  - 3rd Mechanism 3
+  - Swing Alert
+  - Subway 1
+  - Subway 2
+  - Subway
+  - End Game
+  - Coin a
+  - Coin b
+  - Coin c
+  - Coin d
+  - Forest 1
+  - Forest 2
+  - Final 2 Answer
   layers:
   - Default
   - TransparentFX
@@ -21,10 +52,10 @@ TagManager:
   - Player
   - Objects
   - Enemy
-  - 
-  - 
-  - 
-  - 
+  - Chest
+  - Removable
+  - Switch
+  - Minimap
   - 
   - 
   - 
@@ -50,17 +81,23 @@ TagManager:
   - name: Background
     uniqueID: 3591870703
     locked: 0
-  - name: Terrain
-    uniqueID: 2425651459
+  - name: Spikes
+    uniqueID: 7189055
     locked: 0
   - name: Objects
     uniqueID: 3417550573
     locked: 0
+  - name: Terrain
+    uniqueID: 2425651459
+    locked: 0
+  - name: Roof
+    uniqueID: 1475850635
+    locked: 0
   - name: Traps
     uniqueID: 4189426099
     locked: 0
-  - name: Player
-    uniqueID: 2872225501
+  - name: Enemy
+    uniqueID: 3265706679
     locked: 0
   - name: NPC
     uniqueID: 4250941897
@@ -68,6 +105,12 @@ TagManager:
   - name: Items
     uniqueID: 423220943
     locked: 0
-  - name: Enemy
-    uniqueID: 3265706679
+  - name: Player
+    uniqueID: 2872225501
+    locked: 0
+  - name: Trees
+    uniqueID: 3698116837
+    locked: 0
+  - name: Gates
+    uniqueID: 3348645159
     locked: 0

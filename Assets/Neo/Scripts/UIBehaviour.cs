@@ -2,24 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIBehaviour : MonoBehaviour
 {
     
-    public GameObject joystickButton;
-    public GameObject sprintButton;
+    public GameObject welcomeMessage;
+    public static int level;
+    private float variableValue = 2f;
+    private float decreaseRate = 1f;
 
+    private void Update() {
+        level = SceneManager.GetActiveScene().buildIndex;
 
-    public void HideButton()
-    {
-        Debug.Log("sukses");
-        joystickButton.SetActive(false);
-        sprintButton.SetActive(false);
-    }
+        variableValue -= decreaseRate * Time.deltaTime;
 
-    public void ShowButton()
-    {
-        joystickButton.SetActive(true);
-        sprintButton.SetActive(true);
+        if(welcomeMessage)
+        {
+            if(variableValue <= 0)
+            {
+                welcomeMessage.SetActive(false);
+            }
+        }
+        
     }
 }

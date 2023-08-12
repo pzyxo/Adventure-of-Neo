@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
 {
     public int health;
     public float speed;
-
     private Animator anim;
     
     void Start()
@@ -20,6 +19,7 @@ public class Enemy : MonoBehaviour
 
         if(health <= 0)
         {
+            Coins.EnemySlayed();
             Destroy(gameObject);
         }
     }

@@ -13,4 +13,9 @@ public class EndGame : MonoBehaviour
             Application.Quit();
         #endif
     }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

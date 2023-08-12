@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "CB5A29UMXZ",
+    "m_SelectedDeviceId": "BH9061DWD1",
     "m_SelectedPackage": {
-        "deviceId": "CB5A29UMXZ",
-        "name": "com.DefaultCompany.AdventureofNeo",
-        "processId": 3850,
+        "deviceId": "BH9061DWD1",
+        "name": "com.Pzyxo2DInc.AdventureofNeo",
+        "processId": 18093,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,126 @@
             "deviceId": "CB5A29UMXZ",
             "name": "com.DefaultCompany.AdventureofNeo",
             "processId": 3850,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.DefaultCompany.AdventureofNeo",
+            "processId": 25889,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.DefaultCompany.AdventureofNeo",
+            "processId": 26112,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.DefaultCompany.AdventureofNeo",
+            "processId": 11332,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 29563,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 32513,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 4257,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 19733,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 9605,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 14581,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 2019,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 6849,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 13371,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 30783,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 6738,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 27179,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 17556,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 13915,
+            "exited": false
+        },
+        {
+            "deviceId": "CB5A29UMXZ",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 30486,
+            "exited": false
+        },
+        {
+            "deviceId": "EYBUGIFMKBPJZXAM",
+            "name": "com.miui.home",
+            "processId": 1634,
+            "exited": false
+        },
+        {
+            "deviceId": "BH9061DWD1",
+            "name": "com.Pzyxo2DInc.AdventureofNeo",
+            "processId": 18093,
             "exited": false
         }
     ],

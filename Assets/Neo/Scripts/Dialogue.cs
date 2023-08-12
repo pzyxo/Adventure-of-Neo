@@ -10,7 +10,7 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public string[] answer;
     public float textSpeed;
-    public static int talked;
+    public static int talked = 0;
     public static bool popped;
 
     //gameobject jangan lupa diinisiasi!!
@@ -19,6 +19,9 @@ public class Dialogue : MonoBehaviour
     public GameObject buttonQuest;
     public GameObject joystickButton;
     public GameObject sprintButton;
+    public GameObject hideItems;
+    public GameObject questBoard;
+    public bool currentIndex = false;
 
     private int index;
 
@@ -45,6 +48,15 @@ public class Dialogue : MonoBehaviour
             popped = false;
             dialogueBox.SetActive(false);
         }
+
+        Debug.Log(talked);
+        if(index == lines.Length - 1)
+        {
+            hideItems.SetActive(false);
+            currentIndex = true;
+        }
+
+        
     }
 
     void StartDialogue()
@@ -109,5 +121,15 @@ public class Dialogue : MonoBehaviour
     {
         joystickButton.SetActive(true);
         sprintButton.SetActive(true);
+        if(questBoard != null)
+        {
+            questBoard.SetActive(true);
+        }
+        
+    }
+
+    public bool GetCurrentIndex()
+    {
+        return currentIndex;
     }
 }
